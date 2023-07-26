@@ -43,8 +43,8 @@ class Solution:
             #TODO: Write code below to return an int with the solution to the prompt.
             for i in range(len(arr)-1):
                 if arr[i+1] > arr[i]:
-                      if Long_inc_str ==1 and i != 0:
-                           Long_inc_str += 2
+                      #if Long_inc_str ==1 and i != 0:
+                          # Long_inc_str += 2
                       Long_inc_str +=1
                 elif arr[i+1] == arr[i]: 
                         pass
