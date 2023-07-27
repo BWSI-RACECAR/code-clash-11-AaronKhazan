@@ -54,7 +54,7 @@ class Solution:
                 if arr[i] < arr[i+1]:
                     ctr += 1
         return ctr
-            pass
+    pass
 
 def main():
     array = input().split(" ")
